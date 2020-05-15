@@ -1,0 +1,20 @@
+.Bgc\(lightgray\) {
+  background-color: lightgray;
+}
+.Fz\(3rem\) {
+  font-size: 3rem;
+}
+.M\(a\) {
+  margin: auto;
+}
+.P\(3rem\) {
+  padding: 3rem;
+}
+.Ta\(c\) {
+  text-align: center;
+}
+.Grid\(800px\,220px\) {
+  display: grid;
+  max-width: 800px;
+  grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+}
