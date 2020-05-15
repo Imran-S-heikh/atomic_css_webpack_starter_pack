@@ -1,6 +1,5 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
 
@@ -65,10 +64,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: "./src/index.html",
-    }),
-    new CopyPlugin([
-        { from: './src/style/molecules.js', to: './node_modules/atomizer/src/helpers.js'}
-    ])
+    })
   ],
 
 }
