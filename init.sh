@@ -8,4 +8,4 @@ sed -i '/scripts/a\\ "start":"webpack-dev-server","build":"webpack","watch":"npm
 sed -i '/"test"/d' package.json
 npm install -D babel-loader @babel/core @babel/preset-env webpack webpack-cli css-loader style-loader webpack-atomizer-loader html-loader html-webpack-plugin webpack-dev-server file-loader autoprefixer postcss-loader
 #gnome-terminal -- npm start
-#rm init.sh
+rm init.sh
