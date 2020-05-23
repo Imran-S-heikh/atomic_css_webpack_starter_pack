@@ -1,4 +1,2 @@
-import '../style/main.css';
-
-
+import '../style/atomic.css';
 console.log(`Hello World`);
